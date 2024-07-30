@@ -10,6 +10,7 @@ This daemon is confirmed working with the miners below in both dual-mining and k
 - BzMiner/v18.0.0
 
 **Please configure your wallet address in config.yaml before mining. 
+![image](https://github.com/user-attachments/assets/aedd26d9-ef82-48c2-8086-87277fa31681)
 
 
 No fee, forever. Do what you want with it.
@@ -57,6 +58,9 @@ Example configuration command:
 bash
 Copy code
 ./lolMiner -o stratum+tcp://pooladdress:port -u yourusername -p yourpassword
+
+![image](https://github.com/user-attachments/assets/7a89d095-de63-4b85-9e1a-4953cdd8bc2f)
+
 
 **Step 4: Start Mining**
 With your software configured, you can start the mining process. The software will connect to the pool using the Stratum protocol, receive mining tasks, and begin hashing.
